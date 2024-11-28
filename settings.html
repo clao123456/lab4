@@ -1,0 +1,50 @@
+<!-- settings.html -->
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройки - Muzika</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">Muzika</div>
+        <nav class="nav">
+            <a href="index.html">Главная</a>
+            <a href="library.html">Библиотека</a>
+            <a href="playlists.html">Плейлисты</a>
+            <a href="albums.html">Альбомы</a>
+            <a href="artists.html">Исполнители</a>
+            <a href="settings.html">Настройки</a>
+        </nav>
+    </header>
+
+    <main class="settings">
+        <h1>Настройки профиля</h1>
+
+        <form>
+            <label for="username">Имя пользователя:</label>
+            <input type="text" id="username" name="username" value="">
+
+            <label for="email">Электронная почта:</label>
+            <input type="email" id="email" name="email" value="">
+
+            <label for="language">Язык:</label>
+            <select id="language" name="language">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+
+            <button type="submit">Сохранить изменения</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Muzika. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>

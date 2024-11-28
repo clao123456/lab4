@@ -1,0 +1,16 @@
+header {
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    nav a {
+        margin: 0 15px;
+        color: $text-color;
+        text-decoration: none;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
